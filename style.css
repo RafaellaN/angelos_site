@@ -57,6 +57,20 @@ a {
 	width: 100%;
 	float: left;
 }
+
+.cyprus-banner {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/cyprus-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
 .bg-overlay {
 	padding: 240px 0 200px;
 	background-color: RGBA(15, 5, 20, 0.84);
