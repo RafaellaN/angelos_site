@@ -15,6 +15,35 @@ a {
 	outline: none !important;
 }
 /*-----Header & Banner Starts-------*/
+.translation-header {
+  overflow: hidden;
+  
+  padding: 10px 5px 5px 5px;
+}
+
+.translation-header a {
+	float: right;
+	
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 5px;
+	border-radius: 20px;
+}
+
+/* Change the background color on mouse-over */
+.translation-header a:hover {
+  background-color: gray;
+  color: black;
+}
+
+/* Style the active/current link*/
+.translation-header a.active {
+  background-color: #EB233C;
+  color: white;
+}
+
 .navbar-brand {
 	font-family: 'Times New Roman', cursive; 
 	color: #ffffff;
@@ -32,7 +61,7 @@ a {
 }
 .banner {
 	background-attachment: fixed;
-	background-color: #645862;
+	background-color: #3253a8;
 	background-image: url(images/background.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -41,12 +70,12 @@ a {
 	cursor: default;
 	text-align: center;
 	width: 100%;
-	float: left;
+	float: center;
 }
 
 .about-banner {
 	background-attachment: fixed;
-	background-color: #645862;
+	background-color: #3253a8;
 	background-image: url(images/about-bg.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -60,7 +89,7 @@ a {
 
 .cyprus-banner {
 	background-attachment: fixed;
-	background-color: #645862;
+	background-color: #3253a8;
 	background-image: url(images/cyprus-bg.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -73,7 +102,7 @@ a {
 }
 .bg-overlay {
 	padding: 240px 0 200px;
-	background-color: RGBA(15, 5, 20, 0.84);
+	background-color: RGBA(0, 5, 20, 0.84);
 }
 .banner-text h2 {
 	font-size: 50px;
@@ -247,7 +276,7 @@ a {
 /*-----Call to action Starts-------*/
 .call-to-action {
 	background-attachment: fixed;
-	background-color: #645862;
+	background-color: #3253a8;
 	background-image: url(images/background.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;

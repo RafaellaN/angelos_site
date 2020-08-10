@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>StavrouCPA</title>
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css"/>
@@ -28,19 +29,32 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="main-header" id="main-header">
   <nav class="navbar mynav navbar-fixed-top">
+	
+	
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#">StavrouCPA</a> </div>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#banner">StavrouCPA</a> </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#banner">Home</a></li>
-		  <li><a href="#about">About Us</a></li>
-          <li><a href="#work">Services</a></li>
-		  <li><a href="#cyprus">Why Cyprus</a></li>
-          
-          <li><a href="#contact">Contact Us</a></li>
+			<li class="active"><a href="#banner">Home</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#work">Services</a></li>
+			<li><a href="#cyprus">Why Cyprus</a></li>  
+			<li><a href="#contact">Contact Us</a></li>
+			<li><div class="translation-header"> 
+			<a href="#">
+						<i class="fa fa-language" aria-hidden="true"></i>
+						<select class="selectpicker show-tick">
+							<option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+							<option  data-content='<span class="flag-icon flag-icon-gr"></span> Greek'>Ελληνικά</option>
+						</select>
+			</a>
+			</div>
+			</li>
         </ul>
+		
+			
       </div>
     </div>
   </nav>
@@ -51,7 +65,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="banner-text">
-            <h2>Something <span>Cutchy</span> StavrouCPA</h2>
+            <h2>Quality and <span>perfectionism</span> at StavrouCPA</h2>
             <p>Through trust and professionalism we deliver</p>
             <a href="#about" class="banner-button">Learn More</a> </div>
         </div>
@@ -229,6 +243,12 @@
 <script type="text/javascript" src="js/jquery.countTo.js"></script> 
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
 <script>
+
+$(function(){
+    $('.selectpicker').selectpicker();
+});
+
+
 $(document).ready(function() {
      
       $("#owl-demo").owlCarousel({
