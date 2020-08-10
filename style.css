@@ -17,17 +17,17 @@ a {
 /*-----Header & Banner Starts-------*/
 .translation-header {
   overflow: hidden;
-  
   padding: 10px 5px 5px 5px;
+  
 }
 
 .translation-header a {
 	float: right;
-	
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
 	font-size: 15px;
+	font-weight: bold;
 	line-height: 5px;
 	border-radius: 20px;
 }
@@ -40,7 +40,7 @@ a {
 
 /* Style the active/current link*/
 .translation-header a.active {
-  background-color: #EB233C;
+  background-color: #9D8420;
   color: white;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 .navbar-brand:hover {
-	color: #EB233C;
+	color: #9D8420;
 }
 .navbar-toggle {
 	background-color: #fff;
@@ -108,7 +108,7 @@ a {
 	font-size: 50px;
 }
 .banner-text h2 span {
-	color: #EB233C;
+	color: #9D8420; //9D8420
 }
 .banner-text p {
 	font-size: 15px;
@@ -130,7 +130,7 @@ a {
 }
 .mynav {
 	transition: all 0.8s ease-in;
-	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+	background: rgb(8, 61, 119) none repeat scroll 0% 0%;
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -141,9 +141,9 @@ a {
 	color: #E1DBDB;
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
-	background-color: #665566;
+	background-color: #FDBD0D;
 	color: #fff;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 }
 .navbar-nav > li > a {
 	padding-top: 15px;
@@ -171,7 +171,7 @@ a {
 .icon-box i {
 	line-height: 70px;
 	font-size: 25px;
-	color: #EB233C;
+	color: #9D8420;
 }
 .feature-text {
 	padding-left: 20px;
@@ -203,7 +203,7 @@ a {
 .portfolio h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -214,7 +214,7 @@ a {
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #9D8420;
 	margin-top: 20px;
 }
 .view-more:hover {
@@ -234,7 +234,7 @@ a {
 .testimonials h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -268,7 +268,7 @@ a {
 	padding-left: 10px;
 }
 .owl-theme .owl-controls .owl-page span {
-	background-color: #EB233C !important;
+	background-color: #9D8420 !important;
 }
 /*-----Testimonials Ends-------*/
 
@@ -297,7 +297,7 @@ a {
 .subscribe-text h3 {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 	text-align: left;
@@ -309,7 +309,7 @@ a {
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #9D8420;
 	margin-top: 30px;
 }
 .subscribe-button:hover {
@@ -327,7 +327,7 @@ a {
 .about h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -340,7 +340,7 @@ a {
 	font-family: 'Time New Roman', sans-serif;
 }
 .timer {
-	color: #EB233C;
+	color: #9D8420;
 	font-size: 50px;
 	font-weight: 200;
 }
@@ -360,7 +360,7 @@ a {
 .contact h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -381,7 +381,7 @@ a {
 	border-radius: 0px;
 	box-shadow: none;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #9D8420;
 	resize: none;
 	margin-top: 25px;
 }
@@ -409,7 +409,7 @@ color: #242424 !important;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #9D8420;
 	margin-top: 30px;
 }
 .address {
@@ -417,7 +417,7 @@ color: #242424 !important;
 	margin-top: 70px;
 }
 .address h4 {
-	color: #EB233C;
+	color: #9D8420;
 	font-size: 22px;
 }
 .address p {
@@ -425,7 +425,7 @@ color: #242424 !important;
 	font-weight: 500;
 }
 .email i {
-	color: #EB233C;
+	color: #9D8420;
 	padding-right: 10px;
 	font-weight: 400;
 	font-size: 16px;
@@ -447,7 +447,7 @@ footer ul.quicklinks {
 	margin-bottom: 0px;
 }
 footer ul.quicklinks a {
-	color: #EB233C;
+	color: #9D8420;
 	line-height: 40px;
 	text-decoration: none;
 }
@@ -467,7 +467,7 @@ ul.social-buttons li a {
 	width: 40px;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-	background-color: #EB233C;
+	background-color: #9D8420;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0 none;
