@@ -16,33 +16,12 @@ a {
 }
 /*-----Header & Banner Starts-------*/
 .translation-header {
-  overflow: hidden;
-  padding: 10px 5px 5px 5px;
+  overflow: visible;
+  padding: 10px 10px 10px 10px;
   
 }
 
-.translation-header a {
-	float: right;
-	text-align: center;
-	padding: 5px;
-	text-decoration: none;
-	font-size: 15px;
-	font-weight: bold;
-	line-height: 5px;
-	border-radius: 20px;
-}
 
-/* Change the background color on mouse-over */
-.translation-header a:hover {
-  background-color: gray;
-  color: black;
-}
-
-/* Style the active/current link*/
-.translation-header a.active {
-  background-color: #9D8420;
-  color: white;
-}
 
 .navbar-brand {
 	font-family: 'Times New Roman', cursive; 
@@ -108,7 +87,7 @@ a {
 	font-size: 50px;
 }
 .banner-text h2 span {
-	color: #9D8420; //9D8420
+	color: #9D8420;
 }
 .banner-text p {
 	font-size: 15px;
@@ -318,22 +297,69 @@ a {
 }
 /*-----Call to action Starts-------*/
 
+
+/* dropdown lang */
+.dropbtn {
+	
+  background-color: #3253a8;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3253a8;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #9D8420;}
+
+
 /*-----About Starts-------*/
+
+.about-background {
+	padding-top: 60px;
+	padding-bottom: 40px;
+    background-color: white;
+	display: inline-block
+	
+}
 .about {
-	padding: 50px 0px;
-	width: 100%;
-	float: left;
+	width: 90%;
+	margin: auto;
+	
 }
 .about h3 {
-	margin-top: 0px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border-bottom: 2px solid #9D8420;
 	display: inline-block;
 	line-height: 35px;
 }
 .about-text p {
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 }
 .counter-item h5 {
 	margin: 0px !important;
