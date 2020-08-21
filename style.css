@@ -81,7 +81,7 @@ a {
 }
 .bg-overlay {
 	padding: 240px 0 200px;
-	background-color: RGBA(0, 5, 20, 0.84);
+	background-color: RGBA(0, 5, 20, 0.64);
 }
 .banner-text h2 {
 	font-size: 50px;
@@ -346,10 +346,34 @@ a {
 
 
 /*-----About Starts-------*/
+.general-text-background {
+	padding-top: 10px;
+	padding-bottom: 20px;
+    background-color: white;
+	display: inline-block
+	
+}
+
+.general-text {
+	width: 90%;
+	margin: 10px;
+}
+
+.general-text h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #9D8420;
+	display: inline-block;
+	line-height: 35px;
+}
+
+b.thick {
+  font-weight: bold;
+}
 
 .about-background {
 	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
     background-color: white;
 	display: inline-block
 	
