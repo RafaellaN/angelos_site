@@ -83,6 +83,10 @@ a {
 	padding: 240px 0 200px;
 	background-color: RGBA(0, 5, 20, 0.64);
 }
+.f-overlay {
+	
+	background-color: RGBA(0, 5, 20, 0.64);
+}
 .banner-text h2 {
 	font-size: 50px;
 }
@@ -109,7 +113,7 @@ a {
 }
 .mynav {
 	transition: all 0.8s ease-in;
-	background: rgb(8, 61, 119) none repeat scroll 0% 0%;
+	background: rgb(8, 81, 95) none repeat scroll 0% 0%;
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -131,11 +135,17 @@ a {
 /*-----Header & Banner Ends-------*/
 
 /*-----Features Starts-------*/
+
 .features {
-	padding: 100px 0px;
+	background-image: url(images/cyprus.jpg);
+	background-origin: border-box;
+	padding: 20px 0px;
 	float: left;
 	width: 100%;
+	color: white;
+	padding-top: 50px;
 }
+
 .icon-box {
 	position: relative;
 	width: 70px;
@@ -154,6 +164,7 @@ a {
 }
 .feature-text {
 	padding-left: 20px;
+	color: white;
 }
 .feature-text h4 {
 	color: rgb(68, 51, 68);
@@ -298,10 +309,15 @@ a {
 /*-----Call to action Starts-------*/
 
 
+.logo {
+    display: inline-block;    
+    width: 25%;
+}
+
 /* dropdown lang */
 .dropbtn {
 	
-  background-color: #083D77;
+  background-color: #08515f;
   color: white;
   padding-top: 5px;
   font-size: 14px;
@@ -469,7 +485,7 @@ color: #242424 !important;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
 	background-color: #9D8420;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .address {
 	color: #242424;
@@ -537,6 +553,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 @media (min-width:0px) and (max-width: 600px) {
 .bg-overlay {
 	padding: 180px 0 120px;
+}
+
+.f-overlay {
+	padding: 180px 0 120px;
+	
 }
 .banner-text h2 {
 	font-size: 35px;
