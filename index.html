@@ -23,34 +23,33 @@
 <div class="main-header" id="main-header">
 	<nav class="navbar mynav navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a href="index.html"> <img class="logo" src="images/logo.jpg">  </a> 
-				
-				
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#banner">Home</a></li>
-					<li><a href="#about">About Us</a></li>
-					<li><a href="#work">Services</a></li>
-					<li><a href="#cyprus">Why Cyprus</a></li>  
-					<li><a href="#contact">Contact Us</a></li>
-					<li>
-						<div class="translation-header">
-							<div class="dropdown">
-								<button class="dropbtn"><i class="fa fa-language" aria-hidden="true"></i> Language</button>
-								<div class="dropdown-content">
-									<a href="#">English</a>
-									<a href="index-gr.html">Ελληνικά</a>
-								</div>
-							</div>				
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<a href="index.html"> <img class="logo" src="images/logo.jpg">  </a>  
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#banner">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#work">Services</a></li>
+				<li><a href="#cyprus">Why Cyprus</a></li>  
+				<li><a href="#contact">Contact Us</a></li>
+				<li>
+				<div class="translation-header">
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa fa-language" aria-hidden="true"></i> Language</button>
+						<div class="dropdown-content">
+							<a href="index.html">English</a>
+							<a href="index-gr.html">Ελληνικά</a>
 						</div>
-					</li>
-				</ul>	
-			</div>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
 		</div>
 	</nav>
+</div>
 
 <div class="banner" id="banner">
   <div class="bg-overlay">
@@ -60,7 +59,8 @@
           <div class="banner-text">
             <h2>Quality and <span>perfectionism</span> at StavrouCPA</h2>
             <p>Through trust and professionalism we deliver</p>
-            <a href="#about" class="banner-button">Learn More</a> </div>
+            <a href="#about" class="banner-button">Learn More</a> 
+		  </div>
         </div>
       </div>
     </div>
@@ -168,9 +168,6 @@
 </div>
 
 
-
-
-
 <div class="contact" id="contact">
   <div class="container">
     <div class="row">
@@ -209,6 +206,7 @@
     </div>
   </div>
 </div>
+
 <footer>
   <div class="container">
     <div class="row">
@@ -230,7 +228,9 @@
 <script type="text/javascript" src="js/jquery.countTo.js"></script> 
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
 <script>
-
+	$(function(){
+    $('.selectpicker').selectpicker();
+});
 
 $(document).ready(function() {
      
