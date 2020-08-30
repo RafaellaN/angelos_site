@@ -692,6 +692,14 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 /*-----Contact Starts-------*/
 
 @media (min-width:0px) and (max-width: 600px) {
+	
+#headline, #latest, #headline2, #latest2 {
+	width:100%;
+	padding: 5px;
+	
+
+}	
+
 .bg-overlay {
 	padding: 180px 0 120px;
 }
