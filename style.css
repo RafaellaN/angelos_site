@@ -696,6 +696,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 #headline, #latest, #headline2, #latest2 {
 	width:100%;
 	padding: 10px;
+	float: center;
 }	
 
 .bg-overlay {
