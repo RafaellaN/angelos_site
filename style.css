@@ -144,7 +144,7 @@ ol.n {
 }
 
 ol.k {
-	padding-left:20px;
+	padding-left:20px;Berkshire Hathaway Inc. 
 	list-style-type: lower-alpha;
 }
 
@@ -161,6 +161,11 @@ ol.k {
 #featured .spost, #popular .spost
 {
 	min-height:123px;
+}
+
+#container-post
+{
+	padding-left:20px;
 }
 
 #content
