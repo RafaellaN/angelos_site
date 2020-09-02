@@ -143,6 +143,11 @@ ol.n {
 	list-style-type: lower-roman;
 }
 
+ol.k {
+	padding-left:20px;
+	list-style-type: lower-alpha;
+}
+
 /*-----News-------*/
 
 .spost
